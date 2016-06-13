@@ -13,6 +13,7 @@ public class AnnationController {
 	@RequestMapping("/method1")
 	public ModelAndView method(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		System.out.println("method1");
+		System.out.println("in");
 		return null;
 	}
 	
